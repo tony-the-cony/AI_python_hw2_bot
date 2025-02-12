@@ -1,0 +1,249 @@
+==> It looks like we don't have access to your repo, but we'll try to clone it anyway.
+==> Cloning from https://github.com/tony-the-cony/AI_python_hw2_bot
+==> Checking out commit e7ae7e4869f41ffc2bfbc8ffa40a84537469ca11 in branch main
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 193B done
+#1 DONE 0.0s
+#2 [internal] load metadata for docker.io/library/python:3.10
+#2 ...
+#3 [auth] library/python:pull render-prod/docker-mirror-repository/library/python:pull token for us-west1-docker.pkg.dev
+#3 DONE 0.0s
+#2 [internal] load metadata for docker.io/library/python:3.10
+#2 DONE 1.1s
+#4 [internal] load .dockerignore
+#4 transferring context: 2B done
+#4 DONE 0.0s
+#5 [internal] load build context
+#5 transferring context: 33.23kB done
+#5 DONE 0.1s
+#6 [1/5] FROM docker.io/library/python:3.10@sha256:76f22e4ce53774c1f5eb0ba145edb57b908e7aa329fee75eca69b511c1d0cd8a
+#6 resolve docker.io/library/python:3.10@sha256:76f22e4ce53774c1f5eb0ba145edb57b908e7aa329fee75eca69b511c1d0cd8a 0.0s done
+#6 sha256:e844e4b3e2703ef66467e25423be00f95eee69a91664f91d4464b4cf6966bc5e 248B / 248B 0.1s done
+#6 sha256:57e75b8db17c16e4ec2be73e3ea713d246ea9c1943cb96c04b155bf873a72504 0B / 21.39MB 0.2s
+#6 sha256:7576b00d9bb10cc967bb5bdeeb3d5fa078ac8800e112aa03ed15ec199662d4f7 0B / 211.33MB 0.2s
+#6 sha256:ff1cff00b1ddb9d70a55cbd8a6e711a0cb771f4adbb513cb4370e752366692ff 0B / 6.16MB 0.2s
+#6 sha256:ff1cff00b1ddb9d70a55cbd8a6e711a0cb771f4adbb513cb4370e752366692ff 6.16MB / 6.16MB 0.3s done
+#6 sha256:35af2a7690f2b43e7237d1fae8e3f2350dfb25f3249e9cf65121866f9c56c772 0B / 64.39MB 0.2s
+#6 sha256:57e75b8db17c16e4ec2be73e3ea713d246ea9c1943cb96c04b155bf873a72504 21.39MB / 21.39MB 0.6s done
+#6 sha256:7576b00d9bb10cc967bb5bdeeb3d5fa078ac8800e112aa03ed15ec199662d4f7 26.21MB / 211.33MB 0.5s
+#6 sha256:35af2a7690f2b43e7237d1fae8e3f2350dfb25f3249e9cf65121866f9c56c772 12.91MB / 64.39MB 0.3s
+#6 sha256:32b550be6cb62359a0f3a96bc0dc289f8b45d097eaad275887f163c6780b4108 0B / 24.06MB 0.2s
+#6 sha256:7576b00d9bb10cc967bb5bdeeb3d5fa078ac8800e112aa03ed15ec199662d4f7 49.28MB / 211.33MB 0.6s
+#6 sha256:35af2a7690f2b43e7237d1fae8e3f2350dfb25f3249e9cf65121866f9c56c772 32.51MB / 64.39MB 0.5s
+#6 sha256:7576b00d9bb10cc967bb5bdeeb3d5fa078ac8800e112aa03ed15ec199662d4f7 74.45MB / 211.33MB 0.8s
+#6 sha256:35af2a7690f2b43e7237d1fae8e3f2350dfb25f3249e9cf65121866f9c56c772 52.43MB / 64.39MB 0.6s
+#6 sha256:32b550be6cb62359a0f3a96bc0dc289f8b45d097eaad275887f163c6780b4108 13.63MB / 24.06MB 0.5s
+#6 sha256:a492eee5e55976c7d3feecce4c564aaf6f14fb07fdc5019d06f4154eddc93fde 0B / 48.48MB 0.2s
+#6 sha256:7576b00d9bb10cc967bb5bdeeb3d5fa078ac8800e112aa03ed15ec199662d4f7 92.27MB / 211.33MB 0.9s
+#6 sha256:35af2a7690f2b43e7237d1fae8e3f2350dfb25f3249e9cf65121866f9c56c772 64.39MB / 64.39MB 0.8s done
+#6 sha256:7576b00d9bb10cc967bb5bdeeb3d5fa078ac8800e112aa03ed15ec199662d4f7 118.49MB / 211.33MB 1.1s
+#6 sha256:32b550be6cb62359a0f3a96bc0dc289f8b45d097eaad275887f163c6780b4108 24.06MB / 24.06MB 0.6s done
+#6 sha256:a492eee5e55976c7d3feecce4c564aaf6f14fb07fdc5019d06f4154eddc93fde 8.39MB / 48.48MB 0.5s
+#6 sha256:7576b00d9bb10cc967bb5bdeeb3d5fa078ac8800e112aa03ed15ec199662d4f7 148.28MB / 211.33MB 1.2s
+#6 sha256:a492eee5e55976c7d3feecce4c564aaf6f14fb07fdc5019d06f4154eddc93fde 33.55MB / 48.48MB 0.6s
+#6 sha256:7576b00d9bb10cc967bb5bdeeb3d5fa078ac8800e112aa03ed15ec199662d4f7 166.72MB / 211.33MB 1.4s
+#6 sha256:a492eee5e55976c7d3feecce4c564aaf6f14fb07fdc5019d06f4154eddc93fde 48.48MB / 48.48MB 0.8s
+#6 sha256:7576b00d9bb10cc967bb5bdeeb3d5fa078ac8800e112aa03ed15ec199662d4f7 197.13MB / 211.33MB 1.5s
+#6 sha256:a492eee5e55976c7d3feecce4c564aaf6f14fb07fdc5019d06f4154eddc93fde 48.48MB / 48.48MB 0.8s done
+#6 extracting sha256:a492eee5e55976c7d3feecce4c564aaf6f14fb07fdc5019d06f4154eddc93fde
+#6 sha256:7576b00d9bb10cc967bb5bdeeb3d5fa078ac8800e112aa03ed15ec199662d4f7 211.33MB / 211.33MB 1.7s
+#6 sha256:7576b00d9bb10cc967bb5bdeeb3d5fa078ac8800e112aa03ed15ec199662d4f7 211.33MB / 211.33MB 3.1s done
+#6 extracting sha256:a492eee5e55976c7d3feecce4c564aaf6f14fb07fdc5019d06f4154eddc93fde 6.0s done
+#6 DONE 7.7s
+#6 [1/5] FROM docker.io/library/python:3.10@sha256:76f22e4ce53774c1f5eb0ba145edb57b908e7aa329fee75eca69b511c1d0cd8a
+#6 extracting sha256:32b550be6cb62359a0f3a96bc0dc289f8b45d097eaad275887f163c6780b4108
+#6 extracting sha256:32b550be6cb62359a0f3a96bc0dc289f8b45d097eaad275887f163c6780b4108 17.6s done
+#6 DONE 25.3s
+#6 [1/5] FROM docker.io/library/python:3.10@sha256:76f22e4ce53774c1f5eb0ba145edb57b908e7aa329fee75eca69b511c1d0cd8a
+#6 extracting sha256:35af2a7690f2b43e7237d1fae8e3f2350dfb25f3249e9cf65121866f9c56c772
+#6 extracting sha256:35af2a7690f2b43e7237d1fae8e3f2350dfb25f3249e9cf65121866f9c56c772 10.6s done
+#6 extracting sha256:7576b00d9bb10cc967bb5bdeeb3d5fa078ac8800e112aa03ed15ec199662d4f7
+#6 extracting sha256:7576b00d9bb10cc967bb5bdeeb3d5fa078ac8800e112aa03ed15ec199662d4f7 46.0s done
+#6 extracting sha256:ff1cff00b1ddb9d70a55cbd8a6e711a0cb771f4adbb513cb4370e752366692ff
+#6 extracting sha256:ff1cff00b1ddb9d70a55cbd8a6e711a0cb771f4adbb513cb4370e752366692ff 0.9s done
+#6 DONE 82.8s
+#6 [1/5] FROM docker.io/library/python:3.10@sha256:76f22e4ce53774c1f5eb0ba145edb57b908e7aa329fee75eca69b511c1d0cd8a
+#6 extracting sha256:57e75b8db17c16e4ec2be73e3ea713d246ea9c1943cb96c04b155bf873a72504
+#6 extracting sha256:57e75b8db17c16e4ec2be73e3ea713d246ea9c1943cb96c04b155bf873a72504 2.0s done
+#6 extracting sha256:e844e4b3e2703ef66467e25423be00f95eee69a91664f91d4464b4cf6966bc5e 0.1s done
+#6 DONE 84.9s
+#7 [2/5] WORKDIR /app
+#7 DONE 0.1s
+#8 [3/5] COPY requirements.txt requirements.txt
+#8 DONE 0.2s
+#9 [4/5] RUN pip install -r requirements.txt
+#9 3.028 Collecting aiogram==3.3.0
+#9 3.123   Downloading aiogram-3.3.0-py3-none-any.whl (510 kB)
+#9 3.171      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 510.8/510.8 kB 11.6 MB/s eta 0:00:00
+#9 3.219 Collecting python-dotenv==1.0.0
+#9 3.231   Downloading python_dotenv-1.0.0-py3-none-any.whl (19 kB)
+#9 4.275 Collecting aiohttp==3.9.1
+#9 4.289   Downloading aiohttp-3.9.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.2 MB)
+#9 4.319      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 45.4 MB/s eta 0:00:00
+#9 4.673 Collecting matplotlib==3.8.2
+#9 4.687   Downloading matplotlib-3.8.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (11.6 MB)
+#9 5.427      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.6/11.6 MB 16.8 MB/s eta 0:00:00
+#9 5.871 Collecting pandas==2.1.4
+#9 5.887   Downloading pandas-2.1.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (12.3 MB)
+#9 6.728      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.3/12.3 MB 12.8 MB/s eta 0:00:00
+#9 7.155 Collecting numpy==1.26.2
+#9 7.169   Downloading numpy-1.26.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (18.2 MB)
+#9 7.538      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 18.2/18.2 MB 32.6 MB/s eta 0:00:00
+#9 7.635 Collecting python-dateutil==2.8.2
+#9 7.646   Downloading python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+#9 7.671      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 247.7/247.7 kB 10.6 MB/s eta 0:00:00
+#9 7.749 Collecting pytz==2023.3.post1
+#9 7.762   Downloading pytz-2023.3.post1-py2.py3-none-any.whl (502 kB)
+#9 7.991      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 502.5/502.5 kB 2.2 MB/s eta 0:00:00
+#9 8.051 Collecting typing-extensions==4.9.0
+#9 8.063   Downloading typing_extensions-4.9.0-py3-none-any.whl (32 kB)
+#9 8.532 Collecting Pillow==10.1.0
+#9 8.543   Downloading Pillow-10.1.0-cp310-cp310-manylinux_2_28_x86_64.whl (3.6 MB)
+#9 8.661      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.6/3.6 MB 31.3 MB/s eta 0:00:00
+#9 8.726 Collecting anyio==4.6.2
+#9 8.742   Downloading anyio-4.6.2-py3-none-any.whl (89 kB)
+#9 8.757      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 89.8/89.8 kB 7.0 MB/s eta 0:00:00
+#9 8.812 Collecting certifi==2024.8.30
+#9 8.823   Downloading certifi-2024.8.30-py3-none-any.whl (167 kB)
+#9 8.838      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 167.3/167.3 kB 14.5 MB/s eta 0:00:00
+#9 8.873 Collecting h11==0.14.0
+#9 8.887   Downloading h11-0.14.0-py3-none-any.whl (58 kB)
+#9 8.896      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 58.3/58.3 kB 7.6 MB/s eta 0:00:00
+#9 8.940 Collecting h2==4.1.0
+#9 8.953   Downloading h2-4.1.0-py3-none-any.whl (57 kB)
+#9 8.968      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 57.5/57.5 kB 4.1 MB/s eta 0:00:00
+#9 9.005 Collecting hpack==4.0.0
+#9 9.021   Downloading hpack-4.0.0-py3-none-any.whl (32 kB)
+#9 9.081 Collecting httpcore==1.0.7
+#9 9.093   Downloading httpcore-1.0.7-py3-none-any.whl (78 kB)
+#9 9.109      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 78.6/78.6 kB 6.1 MB/s eta 0:00:00
+#9 9.167 Collecting httpx==0.27.2
+#9 9.181   Downloading httpx-0.27.2-py3-none-any.whl (76 kB)
+#9 9.193      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 76.4/76.4 kB 7.6 MB/s eta 0:00:00
+#9 9.229 Collecting hyperframe==6.0.1
+#9 9.244   Downloading hyperframe-6.0.1-py3-none-any.whl (12 kB)
+#9 9.295 Collecting idna==3.10
+#9 9.308   Downloading idna-3.10-py3-none-any.whl (70 kB)
+#9 9.321      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 70.4/70.4 kB 5.3 MB/s eta 0:00:00
+#9 9.352 Collecting sniffio==1.3.1
+#9 9.367   Downloading sniffio-1.3.1-py3-none-any.whl (10 kB)
+#9 9.408 Collecting googletrans==4.0.2
+#9 9.423   Downloading googletrans-4.0.2-py3-none-any.whl (18 kB)
+#9 9.497 Collecting magic-filter<1.1,>=1.0.12
+#9 9.510   Downloading magic_filter-1.0.12-py3-none-any.whl (11 kB)
+#9 9.772 Collecting pydantic<2.6,>=2.4.1
+#9 9.787   Downloading pydantic-2.5.3-py3-none-any.whl (381 kB)
+#9 9.805      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 381.9/381.9 kB 25.4 MB/s eta 0:00:00
+#9 9.851 Collecting aiofiles~=23.2.1
+#9 9.863   Downloading aiofiles-23.2.1-py3-none-any.whl (15 kB)
+#9 9.937 Collecting aiosignal>=1.1.2
+#9 9.951   Downloading aiosignal-1.3.2-py2.py3-none-any.whl (7.6 kB)
+#9 10.01 Collecting attrs>=17.3.0
+#9 10.03   Downloading attrs-25.1.0-py3-none-any.whl (63 kB)
+#9 10.04      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 63.2/63.2 kB 4.6 MB/s eta 0:00:00
+#9 10.51 Collecting multidict<7.0,>=4.5
+#9 10.53   Downloading multidict-6.1.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (124 kB)
+#9 10.55      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 124.6/124.6 kB 8.6 MB/s eta 0:00:00
+#9 10.68 Collecting frozenlist>=1.1.1
+#9 10.69   Downloading frozenlist-1.5.0-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (241 kB)
+#9 10.71      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 241.9/241.9 kB 16.6 MB/s eta 0:00:00
+#9 10.75 Collecting async-timeout<5.0,>=4.0
+#9 10.76   Downloading async_timeout-4.0.3-py3-none-any.whl (5.7 kB)
+#9 11.35 Collecting yarl<2.0,>=1.0
+#9 11.36   Downloading yarl-1.18.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (319 kB)
+#9 11.38      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 319.7/319.7 kB 24.8 MB/s eta 0:00:00
+#9 11.44 Collecting pyparsing>=2.3.1
+#9 11.46   Downloading pyparsing-3.2.1-py3-none-any.whl (107 kB)
+#9 11.47      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 107.7/107.7 kB 8.2 MB/s eta 0:00:00
+#9 11.77 Collecting fonttools>=4.22.0
+#9 11.79   Downloading fonttools-4.56.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (4.6 MB)
+#9 11.93      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.6/4.6 MB 32.7 MB/s eta 0:00:00
+#9 12.13 Collecting kiwisolver>=1.3.1
+#9 12.15   Downloading kiwisolver-1.4.8-cp310-cp310-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (1.6 MB)
+#9 12.20      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.6/1.6 MB 35.3 MB/s eta 0:00:00
+#9 12.27 Collecting packaging>=20.0
+#9 12.29   Downloading packaging-24.2-py3-none-any.whl (65 kB)
+#9 12.31      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 65.5/65.5 kB 4.6 MB/s eta 0:00:00
+#9 12.34 Collecting cycler>=0.10
+#9 12.35   Downloading cycler-0.12.1-py3-none-any.whl (8.3 kB)
+#9 12.57 Collecting contourpy>=1.0.1
+#9 12.59   Downloading contourpy-1.3.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (324 kB)
+#9 12.61      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 325.0/325.0 kB 23.9 MB/s eta 0:00:00
+#9 12.74 Collecting tzdata>=2022.1
+#9 12.76   Downloading tzdata-2025.1-py2.py3-none-any.whl (346 kB)
+#9 12.78      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 346.8/346.8 kB 18.9 MB/s eta 0:00:00
+#9 12.84 Collecting six>=1.5
+#9 12.86   Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+#9 12.95 Collecting exceptiongroup>=1.0.2
+#9 12.96   Downloading exceptiongroup-1.2.2-py3-none-any.whl (16 kB)
+#9 13.06 Collecting httpx[http2]>=0.27.2
+#9 13.07   Downloading httpx-0.28.1-py3-none-any.whl (73 kB)
+#9 13.09      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 73.5/73.5 kB 4.9 MB/s eta 0:00:00
+#9 13.26   Downloading httpx-0.28.0-py3-none-any.whl (73 kB)
+#9 13.27      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 73.6/73.6 kB 5.1 MB/s eta 0:00:00
+#9 14.68 Collecting pydantic-core==2.14.6
+#9 14.70   Downloading pydantic_core-2.14.6-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.1 MB)
+#9 14.74      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 56.1 MB/s eta 0:00:00
+#9 14.78 Collecting annotated-types>=0.4.0
+#9 14.80   Downloading annotated_types-0.7.0-py3-none-any.whl (13 kB)
+#9 14.95 Collecting propcache>=0.2.0
+#9 14.96   Downloading propcache-0.2.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (205 kB)
+#9 14.98      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 205.1/205.1 kB 16.0 MB/s eta 0:00:00
+#9 15.01 WARNING: The candidate selected for download or install is a yanked version: 'anyio' candidate (version 4.6.2 at https://files.pythonhosted.org/packages/3e/dc/a27d58194ddcbeb295500cc6bf233d4dfb34a95a10ca5dbe4ff8454399e4/anyio-4.6.2-py3-none-any.whl (from https://pypi.org/simple/anyio/) (requires-python:>=3.8))
+#9 15.01 Reason for being yanked: This was 4.5.2 code, mistagged
+#9 15.40 Installing collected packages: pytz, tzdata, typing-extensions, sniffio, six, python-dotenv, pyparsing, propcache, Pillow, packaging, numpy, magic-filter, kiwisolver, idna, hyperframe, hpack, h11, frozenlist, fonttools, exceptiongroup, cycler, certifi, attrs, async-timeout, annotated-types, aiofiles, python-dateutil, pydantic-core, multidict, httpcore, h2, contourpy, anyio, aiosignal, yarl, pydantic, pandas, matplotlib, httpx, aiohttp, googletrans, aiogram
+#9 41.42 Successfully installed Pillow-10.1.0 aiofiles-23.2.1 aiogram-3.3.0 aiohttp-3.9.1 aiosignal-1.3.2 annotated-types-0.7.0 anyio-4.6.2 async-timeout-4.0.3 attrs-25.1.0 certifi-2024.8.30 contourpy-1.3.1 cycler-0.12.1 exceptiongroup-1.2.2 fonttools-4.56.0 frozenlist-1.5.0 googletrans-4.0.2 h11-0.14.0 h2-4.1.0 hpack-4.0.0 httpcore-1.0.7 httpx-0.27.2 hyperframe-6.0.1 idna-3.10 kiwisolver-1.4.8 magic-filter-1.0.12 matplotlib-3.8.2 multidict-6.1.0 numpy-1.26.2 packaging-24.2 pandas-2.1.4 propcache-0.2.1 pydantic-2.5.3 pydantic-core-2.14.6 pyparsing-3.2.1 python-dateutil-2.8.2 python-dotenv-1.0.0 pytz-2023.3.post1 six-1.17.0 sniffio-1.3.1 typing-extensions-4.9.0 tzdata-2025.1 yarl-1.18.3
+#9 41.42 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+#9 41.59 
+#9 41.59 [notice] A new release of pip is available: 23.0.1 -> 25.0.1
+#9 41.59 [notice] To update, run: pip install --upgrade pip
+#9 DONE 55.1s
+#10 [5/5] COPY . .
+#10 DONE 0.4s
+#11 exporting to docker image format
+#11 exporting layers
+#11 exporting layers 16.6s done
+#11 exporting manifest sha256:87fd23627a9bb0fe8417d96f0756e9165ff8399c0aad1466df76145ba762e9ef
+#11 exporting manifest sha256:87fd23627a9bb0fe8417d96f0756e9165ff8399c0aad1466df76145ba762e9ef 0.5s done
+#11 exporting config sha256:67013119ce3e70098b7ce607c49313357c652480e6c8ab2ca1140f2943f1a9e8
+#11 exporting config sha256:67013119ce3e70098b7ce607c49313357c652480e6c8ab2ca1140f2943f1a9e8 0.6s done
+#11 DONE 25.3s
+#12 exporting cache to client directory
+#12 preparing build cache for export
+#12 writing cache manifest sha256:989522ea0f0a242bbacf6a841516c2e50e90dfab36a27a8115a3231f53058f83 done
+#12 DONE 6.6s
+Pushing image to registry...
+Upload succeeded
+==> Deploying...
+Feb 12 08:37:23 PM  INFO     Система логирования настроена
+Feb 12 08:37:23 PM  INFO     Конфигурация загружена успешно
+Feb 12 08:37:23 PM  INFO     Бот запущен!
+Feb 12 08:37:23 PM  INFO     Запуск бота...
+Feb 12 08:37:24 PM  INFO     Бот tony_the_cony Testbot начинает работу
+Feb 12 08:37:24 PM  INFO     Получено сообщение: /start
+Feb 12 08:37:24 PM  INFO     Получено сообщение: /start
+Feb 12 08:37:24 PM  INFO     Получено сообщение: /start
+Feb 12 08:37:24 PM  INFO     Получено сообщение: /start
+Feb 12 08:37:31 PM  INFO     Получено сообщение: /set_profile
+Feb 12 08:37:35 PM  INFO     Получено сообщение: 100
+Feb 12 08:37:39 PM  INFO     Получено сообщение: 186
+Feb 12 08:37:40 PM  INFO     Получено сообщение: 22
+Feb 12 08:37:42 PM  INFO     Получено сообщение: 90
+Feb 12 08:37:46 PM  INFO     Получено сообщение: Москва
+Feb 12 08:37:46 PM  INFO     Получена новая температура для Москва: -6.91°C
+==> No open ports detected, continuing to scan...
+==> Docs on specifying a port: https://render.com/docs/web-services#port-binding
+Feb 12 08:38:04 PM  INFO     Получено сообщение: /log_water 1000
+Feb 12 08:38:09 PM  INFO     Получено сообщение: /log_food
+Feb 12 08:38:12 PM  INFO     Получено сообщение: картошка
+Feb 12 08:38:20 PM  INFO     Получено сообщение: 100
+Feb 12 08:38:41 PM  INFO     Получено сообщение: /log_food
+Feb 12 08:38:44 PM  INFO     Получено сообщение: Apfelstrudel
+Feb 12 08:38:49 PM  INFO     Получено сообщение: 100
+==> No open ports detected, continuing to scan...
+==> Docs on specifying a port: https://render.com/docs/web-services#port-binding
+Feb 12 08:39:04 PM  INFO     Получено сообщение: /log_workout бег 30
+Feb 12 08:39:09 PM  INFO     Получено сообщение: /log_workout
+Feb 12 08:39:15 PM  INFO     Получено сообщение: /check_progress
+Feb 12 08:39:22 PM  INFO     Получено сообщение: /get_recommendations
+Feb 12 08:39:50 PM  INFO     Получено сообщение: /plot_progress
